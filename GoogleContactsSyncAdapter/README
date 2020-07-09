@@ -1,0 +1,52 @@
+Steps to enable Google calendar and contacts sync on omni microg builds
+
+Starting from clean flash (or just fastboot -w)
+
+ATTENTION: In case you update and you have your own Google Contacts Sync apk
+in place handle that accordingly. Omni will ship its apk in
+/system/app/GoogleContactsSyncAdapter/GoogleContactsSyncAdapter.apk
+
+Note: On every first clean start omni will disable the apk so it does
+not affect people that want to go without using google services.
+So again in case you have your own be aware of that.
+
+Open Settings app
+
+-Open app permisisons for microG Services Core and enable spoof package signature
+-Open app permisisons for FakeStore and enable spoof package signature
+
+Open microG app
+
+-Open Self-Check and control that all spoofing checkboxes are on
+-Add google account
+
+Open Settings app
+
+-Open app permisisons for Google Contacts Sync and press enable
+ (While you are there double check contacts permissions - should be enabled already)
+-Open google account settings enter Account sync and make sure sync for contacts is checked
+ (Check for any Permission required notification and allow)
+-Check that sync is sucessful
+
+Now you can open Contacts app and your contacts should be available
+
+Calendar
+
+Open OmniStore app
+
+-Install Calendar
+-Install Google Calendar Sync
+Check for any Permission required notification and allow
+
+Open Settings app
+
+-Open app permisisons for Google Calendar Sync and enable calendar permissions
+(you can shortcut to that by clicking on the app in OmniStore too)
+-Open google account settings enter Account sync and make sure sync for calendar is checked
+-Check that sync is sucessful
+
+Now you can open Calendar app and youe events should be available
+
+Troubleshooting
+
+check permissions of all the packages involved
