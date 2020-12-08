@@ -10,7 +10,7 @@ PRODUCT_PACKAGES += \
     FDroidPrivilegedExtension \
     GmsCore \
     GsfProxy \
-    microg-a5k \
+    microg-a5k.xml \
     MozillaNlpBackend \
     NominatimNlpBackend
 
