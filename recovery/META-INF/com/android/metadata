@@ -1,0 +1,5 @@
+ota-required-cache=0
+ota-type=FILE
+post-build=HUAWEI/Y560-L01/HWY560-L:5.1.1/HUAWEIY560-L01/C577B040:user/release-keys
+post-timestamp=1508572576
+pre-device=y560

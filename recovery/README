@@ -1,0 +1,8 @@
+m installclean
+m additional_repos AuroraServices AuroraStore com.google.android.maps.xml com.google.android.maps.jar FakeStore FDroid FDroidPrivilegedExtension GmsCore GsfProxy microg-a5k.xml MozillaNlpBackend NominatimNlpBackend
+cd $OUT_DIR/system
+zip -r system -> microg.zip
+
+microg.zip
+microg_install.sh
+META-INF

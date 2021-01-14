@@ -1,0 +1,10 @@
+ui_print("Installing microG...");
+ifelse(is_mounted("/system"), unmount("/system"));
+package_extract_file("microg.zip", "/tmp/microg.zip");
+package_extract_file("microg_install.sh", "/tmp/microg_install.sh");
+set_metadata("/tmp/microg_install.sh", "uid", 0, "gid", 0, "mode", 0755);
+run_program("/tmp/microg_install.sh") == "0" || abort("Something went wrong, check /tmp/microg_install.log!");
+ifelse(is_mounted("/system"), unmount("/system"));
+show_progress(0.100000, 10);
+ui_print("Done!");
+set_progress(1.000000);

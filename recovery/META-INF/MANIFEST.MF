@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: 0P9SdIpGnUnW1tXK1eGOQnK4eq0=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: modPLmWXII8vFcguHnyNUunNm9g=
+
+Name: META-INF/com/android/metadata
+SHA1-Digest: S0Ew1yarES1lsvHTlWW9QceXlO4=
+
+Name: rpi-resize.sh
+SHA1-Digest: 800bMP8IIIX0BMMDmJTpEdEFHLs=
+
+Name: fdisk
+SHA1-Digest: db7fVLTcp2h5qmvSylzABRCHay8=
+
